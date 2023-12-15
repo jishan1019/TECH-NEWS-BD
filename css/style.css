@@ -1,0 +1,37 @@
+/* BackgrounCorlo Css */
+.bgPrimary {
+  background-color: white;
+}
+
+.bgSecondary {
+  background-color: #018801;
+}
+
+.bgThard {
+  background-color: #f20606;
+}
+
+/* TextColor */
+.textPrimary {
+  color: white;
+}
+
+.textSeconday {
+  color: blue;
+}
+
+.textSeconday:hover {
+  color: #018801;
+}
+
+.textThird {
+  @apply text-black;
+}
+
+/* Button Css */
+
+/* Other Css */
+.flexContainer {
+  display: flex;
+  align-items: center;
+}
