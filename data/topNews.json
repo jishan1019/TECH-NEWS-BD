@@ -1,0 +1,67 @@
+[
+  {
+    "id": 738786,
+    "title": "Smart Watch Changes Our Life",
+    "image": "https://i.ibb.co/Wn7P286/whatch.jpg",
+    "pubDate": "Sep 6 2023",
+    "description": {
+      "shortDes": "Smart Watch Changes Our Life",
+      "longDes": "The latest Smart Watch is a revolutionary device that has the power to transform our daily lives. With advanced features such as health monitoring, fitness tracking, and seamless connectivity, it's not just a timepiece but a companion for a healthier and more connected lifestyle."
+    }
+  },
+
+  {
+    "id": 738787,
+    "title": "Augmented Reality Glasses",
+    "image": "https://i.ibb.co/Qp39qys/glass.jpg",
+    "pubDate": "Sep 10 2023",
+    "description": {
+      "shortDes": "Experience the Future with AR Glasses",
+      "longDes": "Step into the future with Augmented Reality Glasses that overlay digital information onto the real world. These sleek and lightweight glasses open up new possibilities for gaming, navigation, and immersive experiences, blurring the line between the virtual and physical realms."
+    }
+  },
+
+  {
+    "id": 738788,
+    "title": "Quantum Computing Device",
+    "image": "https://i.ibb.co/3BgrHXH/quantam.jpg",
+    "pubDate": "Sep 15 2023",
+    "description": {
+      "shortDes": "Unleashing the Power of Quantum Computing",
+      "longDes": "Experience computing like never before with the Quantum Computing Device. Harnessing the principles of quantum mechanics, this device has the potential to solve complex problems at speeds unimaginable by classical computers. Dive into a new era of computation and discovery."
+    }
+  },
+
+  {
+    "id": 738789,
+    "title": "Foldable Smartphone",
+    "image": "https://i.ibb.co/Q9xW3bG/fold.jpg",
+    "pubDate": "Sep 20 2023",
+    "description": {
+      "shortDes": "Unfold the Future with Foldable Smartphone",
+      "longDes": "Introducing the next evolution in smartphone design – the Foldable Smartphone. Seamlessly transition between a compact device and a larger screen for enhanced multitasking and entertainment. Redefine your mobile experience with cutting-edge foldable technology."
+    }
+  },
+
+  {
+    "id": 738790,
+    "title": "AI-Powered Smart Camera",
+    "image": "https://i.ibb.co/Qnz1mTc/smart.png",
+    "pubDate": "Sep 25 2023",
+    "description": {
+      "shortDes": "Capture Moments Like Never Before",
+      "longDes": "Revolutionize photography with the AI-Powered Smart Camera. This advanced camera utilizes artificial intelligence to automatically adjust settings, recognize scenes, and capture stunning images. Say goodbye to complicated camera settings and hello to effortless, high-quality photography."
+    }
+  },
+
+  {
+    "id": 738791,
+    "title": "5G-enabled Smart Home Hub",
+    "image": "https://i.ibb.co/hfTthZ0/hub.jpg",
+    "pubDate": "Sep 30 2023",
+    "description": {
+      "shortDes": "Connect and Control Your Home with 5G",
+      "longDes": "Transform your living space into a smart home with the 5G-enabled Smart Home Hub. Experience lightning-fast connectivity and seamless control of your smart devices from anywhere. Enjoy the convenience of a connected home that responds to your needs and enhances your daily life."
+    }
+  }
+]
