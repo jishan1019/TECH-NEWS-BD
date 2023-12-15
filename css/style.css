@@ -35,3 +35,7 @@
   display: flex;
   align-items: center;
 }
+
+.textDecoration:hover {
+  text-decoration: underline;
+}
