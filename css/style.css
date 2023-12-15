@@ -39,3 +39,8 @@
 .textDecoration:hover {
   text-decoration: underline;
 }
+
+.headingTitle {
+  font-weight: 700;
+  font-size: 16px;
+}
