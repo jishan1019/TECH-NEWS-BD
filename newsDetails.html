@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TECH NEWS BD</title>
+    <title>Details | TECH NEWS BD</title>
 
     <!-- Google Metarial Front -->
     <link rel="stylesheet"
@@ -12,9 +12,7 @@
 
     <!-- Css Link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.20/dist/full.min.css" rel="stylesheet" type="text/css" />
-
     <script src="https://cdn.tailwindcss.com"></script>
-
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -24,7 +22,7 @@
     <!-- Include the header -->
     <div id="headerContainer" class="w-full"></div>
 
-    <main class="min-h-[60vh] px-5 my-10">
+    <main class="min-h-[60vh] px-5 mt-10 mb-24">
 
         <header id="detailsTitle">
         </header>
@@ -36,25 +34,18 @@
             Input Your Ads Here......
         </div>
 
-
-
-        <article class="my-12 lg:mx-10 flexContainer justify-between	gap-8 lg:flex-row  flex-col	">
+        <article class="my-12 lg:mx-10 flex justify-between gap-8 lg:flex-row flex-col">
             <!-- Full Details -->
-            <div id="fullDetails" class="w-full lg:w-2/3 space-y-6">
-
+            <div id="fullDetails" class="w-full lg:pr-12 lg:w-2/3 space-y-6 overflow-y-auto max-h-screen">
             </div>
 
-
             <!-- Details Sidebar -->
-            <div class="sidebar w-full lg:w-1/3">
-                Ami sidebar.... <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo optio laudantium explicabo voluptates
-                reiciendis nemo quidem unde? Consequuntur perspiciatis vel repellat assumenda possimus? Sunt voluptatem
-                molestias molestiae deserunt saepe odit.
+            <div id="sidebar" class="w-full lg:w-1/3 overflow-y-auto max-h-screen">
             </div>
         </article>
 
-        <footer class="lg:mx-10 flexContainer gap-2">
+
+        <footer class="lg:mx-10 flex flex-col lg:flex-row gap-2">
 
             <div class="social flexContainer gap-2 ">
                 <a href="https://www.facebook.com/" class="flexContainer gap-2 py-1 bg-blue-500 w-28 text-white">
@@ -68,7 +59,7 @@
                 </a>
 
             </div>
-            <div class="social flexContainer gap-2">
+            <div class="social flexContainer gap-9 lg:gap-2">
 
                 <a href="https://www.pinterest.com/">
                     <img class="h-8 w-8" src="img/pinterest.png" alt="">
@@ -79,11 +70,11 @@
                     <img class="h-8 w-8" src="img/twitter.png" alt="">
                 </a>
 
-                <a href="https://www.pinterest.com/">
+                <a href="https://web.whatsapp.com/">
                     <img class="h-8 w-8" src="img/whatsapp.png" alt="">
                 </a>
 
-                <a href="https://www.pinterest.com/">
+                <a href="https://mail.google.com/mail/u/0/">
                     <img class="h-10 w-8" src="img/gmail.png" alt="">
                 </a>
 
@@ -91,8 +82,6 @@
             </div>
 
         </footer>
-
-
 
     </main>
 
@@ -102,7 +91,7 @@
     <!-- Script -->
     <script src="js/loadComponent.js"></script>
     <script src="js/singleNews.js"></script>
-    <script src="js/script.js"></script>
+
 
 </body>
 

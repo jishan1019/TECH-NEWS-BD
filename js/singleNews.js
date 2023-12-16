@@ -12,9 +12,8 @@ const showSingleNews = () => {
 
   fullDetails.innerHTML = `
             <img class="lg:w-1/2 h-64 " src="${singleNews?.image}" alt="">
-            <h1 class="textSeconday my-3 text-2xl font-bold">${
-              singleNews?.description?.shortDes
-            }.</h1>
+            <h1 class="textSeconday my-3 text-2xl font-bold">
+            ${singleNews?.description?.shortDes}.</h1>
 
            <div>
             <a href=${singleNews?.websiteLink} target="_blank">${
@@ -31,7 +30,10 @@ const showSingleNews = () => {
              }</p>
              </div>
 
-            <p>${singleNews?.description?.longDes}.</p>
+            <p>${singleNews?.description?.longDes.slice(0, 300)}</p>
+             <p>${singleNews?.description?.longDes.slice(300, 700)}</p>
+              <p>${singleNews?.description?.longDes.slice(700, 1500)}</p>
+              <p>${singleNews?.description?.longDes.slice(1500, 4000)}</p>
   
       `;
 

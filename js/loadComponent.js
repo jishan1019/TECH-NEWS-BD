@@ -9,3 +9,7 @@ fetch("common/footer.html")
   .then(
     (html) => (document.getElementById("footerContainer").innerHTML = html)
   );
+
+fetch("common/sidebar.html")
+  .then((res) => res.text())
+  .then((html) => (document.getElementById("sidebar").innerHTML = html));
