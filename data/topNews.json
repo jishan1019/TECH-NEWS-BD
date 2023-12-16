@@ -75,5 +75,70 @@
       "shortDes": "Connect and Control Your Home with 5G",
       "longDes": "Step into the future of smart living with the revolutionary 5G-enabled Smart Home Hub, designed to redefine the way you experience and interact with your living space. This cutting-edge hub seamlessly integrates with your smart devices, offering not just connectivity but an unprecedented level of control and intelligence.\n\nImmerse yourself in the world of lightning-fast 5G connectivity, ensuring that your devices respond instantaneously to your commands. Whether you're streaming content, adjusting your home's climate, or enhancing security measures, the Smart Home Hub empowers you with the speed and efficiency of next-generation technology."
     }
+  },
+
+  {
+    "id": 123456,
+    "title": "Exploring the Wonders of Space",
+    "category": "Science & Discovery",
+    "websiteLink": "https://nasa.gov",
+    "image": "https://i.ibb.co/KNqkWPf/space.jpg",
+    "pubDate": "Oct 15 2023",
+    "description": {
+      "shortDes": "Journey to the Stars",
+      "longDes": "Embark on a mesmerizing journey through the cosmos. This article delves into the latest discoveries about distant galaxies, black holes, and the mysteries that continue to captivate astronomers and space enthusiasts alike."
+    }
+  },
+
+  {
+    "id": 654321,
+    "title": "Innovations in Renewable Energy",
+    "category": "Environment & Technology",
+    "websiteLink": "https://greenenergynews.com",
+    "image": "https://i.ibb.co/k9pXkmX/download.jpg",
+    "pubDate": "Dec 5 2023",
+    "description": {
+      "shortDes": "Shaping a Sustainable Future",
+      "longDes": "Explore the latest breakthroughs in renewable energy technologies that are paving the way for a more sustainable future. From solar innovations to advancements in wind power, these developments are reshaping our approach to energy production."
+    }
+  },
+
+  {
+    "id": 111111,
+    "title": " Unlocking the Future of Computing",
+    "category": "Science & Technology",
+    "websiteLink": "https://quantumtech.com",
+    "image": "https://i.ibb.co/111111/quantum.jpg",
+    "pubDate": "Apr 10 2024",
+    "description": {
+      "shortDes": "Revolutionizing Information Processing",
+      "longDes": "Dive into the world of quantum computing and explore how it is reshaping the landscape of information processing. From qubits to quantum algorithms, discover the potential of this cutting-edge technology and its implications for the future of computing."
+    }
+  },
+
+  {
+    "id": 222222,
+    "title": "Advancements in Artificial Intelligence",
+    "category": "Science & Technology",
+    "websiteLink": "https://aitechhub.com",
+    "image": "https://i.ibb.co/222222/ai.jpg",
+    "pubDate": "May 15 2024",
+    "description": {
+      "shortDes": "Exploring the AI Frontier",
+      "longDes": "Delve into the latest breakthroughs in artificial intelligence, from machine learning to neural networks. This comprehensive exploration highlights the current state of AI research and its transformative impact on industries and everyday life."
+    }
+  },
+
+  {
+    "id": 333333,
+    "title": " Innovations Beyond Our Atmosphere",
+    "category": "Science & Technology",
+    "websiteLink": "https://spacetechexplorer.com",
+    "image": "https://i.ibb.co/333333/space-tech.jpg",
+    "pubDate": "Jun 20 2024",
+    "description": {
+      "shortDes": "Pushing the Boundaries of Space Tech",
+      "longDes": "Discover the latest innovations in space technology, from advanced satellite systems to interplanetary missions. This article explores the groundbreaking developments that are expanding our understanding of the cosmos and opening new frontiers in space exploration."
+    }
   }
 ]
