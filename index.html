@@ -21,63 +21,8 @@
 
 <body class="max-w-[1600px] bg-[#f8f8f8]">
 
-    <header class="bgPrimary shadow py-3 px-5 ">
-
-        <nav>
-            <!-- Topnav -->
-            <section class="flexContainer justify-between pb-1">
-                <ul class="inline-flex gap-6">
-                    <li class="textSeconday cursor-pointer">Home</li>
-                    <li class="textSeconday cursor-pointer">About</li>
-                    <li class="textSeconday cursor-pointer">Contact</li>
-                </ul>
-
-
-                <p class="material-symbols-outlined textSeconday cursor-pointer">
-                    apps
-                </p>
-            </section>
-
-            <hr class="py-2">
-
-            <!-- Main Nav -->
-            <section>
-
-                <!-- Logo And Ads -->
-                <section class="lg:flex lg:items-center lg:justify-between my-4 lg:my-8">
-                    <!-- Logo -->
-                    <div class="mb-6 lg:mb-0">
-                        <img class="w-48" src="./img/icon.png" alt="">
-                    </div>
-
-                    <!-- Ads -->
-                    <div class="ads">
-                        Input Your Ads Code Here
-                    </div>
-
-                </section>
-
-
-                <!-- Main Nav -->
-                <section class="flexContainer justify-between mt-6 lg:mt-0 bgSecondary textPrimary">
-                    <div>
-                        <ul class="uppercase flexContainer gap-6">
-                            <li class="bgThard p-3 textDecoration cursor-pointer">Home</li>
-                            <li class="textDecoration cursor-pointer">Online Earn</li>
-                            <li class="textDecoration cursor-pointer">News</li>
-                        </ul>
-                    </div>
-                    <div class="material-symbols-outlined bgThard p-3">
-                        search
-                    </div>
-
-                </section>
-
-
-
-            </section>
-        </nav>
-    </header>
+    <!-- Include the header -->
+    <div id="headerContainer" class="w-full"></div>
 
     <main class="min-h-[60vh] px-5 my-10">
 
@@ -85,7 +30,8 @@
 
         </header>
 
-        <article>
+        <article class="my-12">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolorem sapiente, delectus facilis modi
 
         </article>
 
@@ -94,59 +40,11 @@
 
     </main>
 
-    <footer class="lg:mx-5 bgSecondary">
-        <footer class="footer grid grid-cols-1 lg:grid-cols-3 p-10 textPrimary">
-
-            <nav>
-                <header><span class="headingTitle">Random Post</span></header>
-                <p class="h-[2px] bgThard w-[110px]"></p>
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
-            </nav>
-
-            <nav>
-                <header><span class="headingTitle">Popular Post</span></header>
-                <p class="h-[2px] bgThard w-[100px]"></p>
-                <a className="link link-hover">Branding</a>
-                <a className="link link-hover">Design</a>
-                <a className="link link-hover">Marketing</a>
-                <a className="link link-hover">Advertisement</a>
-            </nav>
-
-            <nav>
-                <header><span class="headingTitle">Legal</span></header>
-                <p class="h-[2px] bgThard w-[50px]"></p>
-                <a className="link link-hover">Terms of use</a>
-                <a className="link link-hover">Privacy policy</a>
-                <a className="link link-hover">Cookie policy</a>
-            </nav>
-
-
-        </footer>
-
-        <section class="textPrimary px-5 py-3 text-center">
-
-            <!-- Ads -->
-            <div class="ads">
-                Inpur Your Ads Code Here......
-            </div>
-
-
-            <!-- Copyright -->
-            <div class="mt-8 text-xs border-t">
-                <p class="mt-2">Copyright © 2023 - All right reserved by TECH NEWS BD.</p>
-            </div>
-
-
-        </section>
-
-
-
-    </footer>
+    <!-- Include the Footer -->
+    <div id="footerContainer" class="w-full"></div>
 
     <!-- Script -->
+    <script src="js/loadComponent.js"></script>
     <script src="js/topNews.js"></script>
     <script src="js/script.js"></script>
 
