@@ -78,6 +78,19 @@
   },
 
   {
+    "id": 333333,
+    "title": " Innovations Beyond Our Atmosphere",
+    "category": "Science & Technology",
+    "websiteLink": "https://spacetechexplorer.com",
+    "image": "https://i.ibb.co/jvRsRZh/download-1.jpg",
+    "pubDate": "Jun 20 2024",
+    "description": {
+      "shortDes": "Pushing the Boundaries of Space Tech",
+      "longDes": "Discover the latest innovations in space technology, from advanced satellite systems to interplanetary missions. This article explores the groundbreaking developments that are expanding our understanding of the cosmos and opening new frontiers in space exploration."
+    }
+  },
+
+  {
     "id": 123456,
     "title": "Exploring the Wonders of Space",
     "category": "Science & Discovery",
@@ -108,7 +121,7 @@
     "title": " Unlocking the Future of Computing",
     "category": "Science & Technology",
     "websiteLink": "https://quantumtech.com",
-    "image": "https://i.ibb.co/111111/quantum.jpg",
+    "image": "https://i.ibb.co/gMK3QfB/download-2.jpg",
     "pubDate": "Apr 10 2024",
     "description": {
       "shortDes": "Revolutionizing Information Processing",
@@ -121,7 +134,7 @@
     "title": "Advancements in Artificial Intelligence",
     "category": "Science & Technology",
     "websiteLink": "https://aitechhub.com",
-    "image": "https://i.ibb.co/222222/ai.jpg",
+    "image": "https://i.ibb.co/s2QGtvz/i.jpg",
     "pubDate": "May 15 2024",
     "description": {
       "shortDes": "Exploring the AI Frontier",
@@ -130,15 +143,41 @@
   },
 
   {
-    "id": 333333,
-    "title": " Innovations Beyond Our Atmosphere",
-    "category": "Science & Technology",
-    "websiteLink": "https://spacetechexplorer.com",
-    "image": "https://i.ibb.co/333333/space-tech.jpg",
-    "pubDate": "Jun 20 2024",
+    "id": 112233,
+    "title": "Wireless Charging Dock",
+    "category": "Tech & Accessories",
+    "websiteLink": "https://wirelessdock.com",
+    "image": "https://i.ibb.co/fFs3PHF/wchar.jpg",
+    "pubDate": "Jul 15 2023",
     "description": {
-      "shortDes": "Pushing the Boundaries of Space Tech",
-      "longDes": "Discover the latest innovations in space technology, from advanced satellite systems to interplanetary missions. This article explores the groundbreaking developments that are expanding our understanding of the cosmos and opening new frontiers in space exploration."
+      "shortDes": "Simplify Your Charging Experience with Wireless Dock",
+      "longDes": "Say goodbye to tangled cords and embrace the future of charging with our Wireless Charging Dock. Effortlessly charge your devices by simply placing them on the dock. With sleek design and fast charging capabilities, this dock is a must-have accessory for tech enthusiasts."
+    }
+  },
+
+  {
+    "id": 445566,
+    "title": "Smart Fitness Tracker",
+    "category": "Tech & Health",
+    "websiteLink": "https://fitnesstracker.com",
+    "image": "https://i.ibb.co/ZhRsVC9/download.jpg",
+    "pubDate": "Aug 30 2023",
+    "description": {
+      "shortDes": "Achieve Your Fitness Goals with Smart Fitness Tracker",
+      "longDes": "Monitor and optimize your health and fitness journey with our Smart Fitness Tracker. Track your steps, heart rate, sleep patterns, and more. With a sleek design and intuitive app integration, this tracker is your perfect companion on the road to a healthier lifestyle."
+    }
+  },
+
+  {
+    "id": 998877,
+    "title": "Self-Driving Car Technology",
+    "category": "Tech & Automotive",
+    "websiteLink": "https://selfdrivingtech.com",
+    "image": "https://i.ibb.co/Zcfs52R/download-1.jpg",
+    "pubDate": "Oct 12 2023",
+    "description": {
+      "shortDes": "Experience the Future of Transportation",
+      "longDes": "Explore the cutting edge of automotive technology with our Self-Driving Car Technology. Transform your commute with autonomous driving capabilities, advanced safety features, and a glimpse into the future of transportation. Join us as we redefine the way we travel."
     }
   }
 ]

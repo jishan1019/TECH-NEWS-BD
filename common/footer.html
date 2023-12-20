@@ -29,19 +29,82 @@
             <nav>
                 <header><span class="headingTitle">Random Post</span></header>
                 <p class="h-[2px] bgThard w-[110px]"></p>
-                <a className="link link-hover">About us</a>
-                <a className="link link-hover">Contact</a>
-                <a className="link link-hover">Jobs</a>
-                <a className="link link-hover">Press kit</a>
+
+                <!-- random 3 Technology -->
+                <section id="sidebarNewsContainer" class="popularTechnology py-4">
+
+                    <a onclick="fetchSingleNews(112233)" href="newsDetails.html"
+                        class="sidebarNewsCard shadow-sm flex gap-2">
+                        <img class="w-28 h-16" src="https://i.ibb.co/fFs3PHF/wchar.jpg" alt="">
+                        <div class="description">
+                            <h2 class="textPrimary font-semibold">Wireless Charging Dock</h2>
+                            <p class="text-xs mt-1 textPrimary">Dec 17 2023</p>
+                        </div>
+
+                    </a>
+
+                    <a onclick="fetchSingleNews(445566)" href="newsDetails.html"
+                        class="sidebarNewsCard shadow-sm flex gap-2 mt-2">
+                        <img class="w-28 h-16" src="https://i.ibb.co/ZhRsVC9/download.jpg" alt="">
+                        <div class="description">
+                            <h2 class="textPrimary font-semibold">Smart Fitness Tracker</h2>
+                            <p class="text-xs mt-1 textPrimary">Dec 18 2023</p>
+                        </div>
+
+                    </a>
+
+                    <a onclick="fetchSingleNews(998877)" href="newsDetails.html"
+                        class="sidebarNewsCard shadow-sm flex gap-2 mt-3">
+                        <img class="w-28 h-16" src="https://i.ibb.co/m9hPSp0/download-2.jpg" alt="">
+                        <div class="description">
+                            <h2 class="textPrimary font-semibold">Self-Driving Car Technology</h2>
+                            <p class="text-xs mt-1 textPrimary">Dec 19 2023</p>
+                        </div>
+
+                    </a>
+
+
+                </section>
             </nav>
 
             <nav>
                 <header><span class="headingTitle">Popular Post</span></header>
                 <p class="h-[2px] bgThard w-[100px]"></p>
-                <a className="link link-hover">Branding</a>
-                <a className="link link-hover">Design</a>
-                <a className="link link-hover">Marketing</a>
-                <a className="link link-hover">Advertisement</a>
+                <!-- Popular 3 Technology -->
+                <section id="sidebarNewsContainer" class="popularTechnology py-4">
+
+                    <a onclick="fetchSingleNews(333333)" href="newsDetails.html"
+                        class="sidebarNewsCard shadow-sm flex gap-2">
+                        <img class="w-28" src="https://i.ibb.co/jvRsRZh/download-1.jpg" alt="">
+                        <div class="description">
+                            <h2 class="textPrimary font-semibold">Innovations Beyond Our Atmosphere</h2>
+                            <p class="text-xs mt-1 textPrimary">Dec 22 2023</p>
+                        </div>
+
+                    </a>
+
+                    <a onclick="fetchSingleNews(738790)" href="newsDetails.html"
+                        class="sidebarNewsCard shadow-sm flex gap-2 mt-2">
+                        <img class="w-28" src="https://i.ibb.co/Qnz1mTc/smart.png" alt="">
+                        <div class="description">
+                            <h2 class="textPrimary font-semibold">AI-Powered Smart Camera</h2>
+                            <p class="text-xs mt-1 textPrimary">Dec 21 2023</p>
+                        </div>
+
+                    </a>
+
+                    <a onclick="fetchSingleNews(738789)" href="newsDetails.html"
+                        class="sidebarNewsCard shadow-sm flex gap-2 mt-3">
+                        <img class="w-28" src="https://i.ibb.co/Q9xW3bG/fold.jpg" alt="">
+                        <div class="description">
+                            <h2 class="textPrimary font-semibold">Foldable Smartphone</h2>
+                            <p class="text-xs mt-1 textPrimary">Dec 25 2023</p>
+                        </div>
+
+                    </a>
+
+
+                </section>
             </nav>
 
             <nav>
@@ -70,6 +133,8 @@
 
 
         </section>
+
+        <script src="../js/topNews.js"></script>
 
 
 

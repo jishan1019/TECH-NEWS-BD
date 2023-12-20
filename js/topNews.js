@@ -7,7 +7,9 @@ const fetchData = () => {
 const displayData = (data) => {
   const topNewsContainer = document.querySelector("#topNewsContainer");
   const allNewsContainer = document.querySelector("#allNewsContainer");
+  const sidebarNewsContainer = document.querySelector("#sidebarNewsContainer");
 
+  // top 6 news
   data?.slice(0, 6)?.forEach((item) => {
     const newsCard = document.createElement("div");
     newsCard.innerHTML = `
@@ -31,6 +33,7 @@ const displayData = (data) => {
     topNewsContainer.appendChild(newsCard);
   });
 
+  // main news in index.html
   data?.slice(6, 1000)?.forEach((item) => {
     const allNewsCard = document.createElement("div");
     allNewsCard.innerHTML = `
@@ -61,9 +64,28 @@ const displayData = (data) => {
 
     allNewsContainer.appendChild(allNewsCard);
   });
+
+  // sidebabr news
+  data?.slice(3, 6)?.forEach((item) => {
+    const sidebarNews = document.createElement("div");
+    sidebarNews.innerHTML = `
+  <div onclick="fetchSingleNews(${item?.id})" class="sidebarNewsCard shadow-sm flex gap-2 mt-3 cursor-pointer">
+                <img class="w-28" src="${item?.image}" alt="">
+                <div class="description">
+                    <h2 class="textSeconday font-semibold">${item?.title}</h2>
+                    <p class="text-xs mt-1 text-black/40">${item?.pubDate}</p>
+                </div>
+            </div>
+        
+      `;
+
+    sidebarNewsContainer.appendChild(sidebarNews);
+  });
 };
 
 const fetchSingleNews = (singleItemId) => {
+  console.log("I am from Fetch News", singleItemId);
+
   fetch("../data/topNews.json")
     .then((res) => res.json())
     .then((data) => {

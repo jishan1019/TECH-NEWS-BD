@@ -36,8 +36,6 @@ const showSingleNews = () => {
               <p>${singleNews?.description?.longDes.slice(1500, 4000)}</p>
   
       `;
-
-  console.log(singleNews, "from single details ");
 };
 
 showSingleNews();
